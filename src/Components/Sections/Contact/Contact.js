@@ -25,7 +25,7 @@ const Contact = ({ styles }) => {
             <div className="icon">
               <i className="material-icons">phone_iphone</i>
             </div>
-            <a href="tel:+4077979158">
+            <a href="tel:407-797-9158">
               <p>(407)797-9158</p>
             </a>
           </div>
