@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/profileSite/static/css/main.98e89f2b.chunk.css",
+    "main.js": "/profileSite/static/js/main.c7fa2f4b.chunk.js",
+    "main.js.map": "/profileSite/static/js/main.c7fa2f4b.chunk.js.map",
+    "runtime-main.js": "/profileSite/static/js/runtime-main.842d947a.js",
+    "runtime-main.js.map": "/profileSite/static/js/runtime-main.842d947a.js.map",
+    "static/css/2.ecbc8ff6.chunk.css": "/profileSite/static/css/2.ecbc8ff6.chunk.css",
+    "static/js/2.be6cb462.chunk.js": "/profileSite/static/js/2.be6cb462.chunk.js",
+    "static/js/2.be6cb462.chunk.js.map": "/profileSite/static/js/2.be6cb462.chunk.js.map",
+    "static/js/3.1a8cd276.chunk.js": "/profileSite/static/js/3.1a8cd276.chunk.js",
+    "static/js/3.1a8cd276.chunk.js.map": "/profileSite/static/js/3.1a8cd276.chunk.js.map",
+    "index.html": "/profileSite/index.html",
+    "static/css/2.ecbc8ff6.chunk.css.map": "/profileSite/static/css/2.ecbc8ff6.chunk.css.map",
+    "static/css/main.98e89f2b.chunk.css.map": "/profileSite/static/css/main.98e89f2b.chunk.css.map",
+    "static/js/2.be6cb462.chunk.js.LICENSE.txt": "/profileSite/static/js/2.be6cb462.chunk.js.LICENSE.txt",
+    "static/media/Office_icon.81ecf97a.png": "/profileSite/static/media/Office_icon.81ecf97a.png",
+    "static/media/Profile_Image.ffda3f02.jpg": "/profileSite/static/media/Profile_Image.ffda3f02.jpg",
+    "static/media/adobe_illustrator.c1d0e881.png": "/profileSite/static/media/adobe_illustrator.c1d0e881.png",
+    "static/media/adobe_photoshop.17fc2de7.png": "/profileSite/static/media/adobe_photoshop.17fc2de7.png",
+    "static/media/adobe_target.b00047b9.png": "/profileSite/static/media/adobe_target.b00047b9.png",
+    "static/media/college.dfb70875.png": "/profileSite/static/media/college.dfb70875.png",
+    "static/media/gas-station.ff9c3e38.png": "/profileSite/static/media/gas-station.ff9c3e38.png",
+    "static/media/google_analytics.4e20acbd.png": "/profileSite/static/media/google_analytics.4e20acbd.png",
+    "static/media/hotel.3b20df86.png": "/profileSite/static/media/hotel.3b20df86.png",
+    "static/media/html_logo.67081136.png": "/profileSite/static/media/html_logo.67081136.png",
+    "static/media/javascript_logo.ff7598da.png": "/profileSite/static/media/javascript_logo.ff7598da.png",
+    "static/media/jquery_logo.04d63352.png": "/profileSite/static/media/jquery_logo.04d63352.png",
+    "static/media/roller-coaster.fe6af4e3.png": "/profileSite/static/media/roller-coaster.fe6af4e3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.842d947a.js",
+    "static/css/2.ecbc8ff6.chunk.css",
+    "static/js/2.be6cb462.chunk.js",
+    "static/css/main.98e89f2b.chunk.css",
+    "static/js/main.c7fa2f4b.chunk.js"
+  ]
+}
