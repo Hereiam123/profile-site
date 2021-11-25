@@ -26,9 +26,9 @@ const UserWrapper = () => {
           <li className={styles['collection-item']}>
             <a
               href="mailto:bdemaio1@gmail.com"
-              className="btn waves-effect waves-light light-bg"
+              className={`btn waves-effect waves-light light-bg ${styles['a']}`}
             >
-              CONTACT ME!<i className="material-icons">email</i>
+              <span>CONTACT ME!</span><i className="material-icons">email</i>
             </a>
           </li>
         </ul>

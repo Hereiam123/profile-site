@@ -19,6 +19,18 @@
   border-color: #eaeaea;
 }
 
+.user-wrapper .collection .collection-item > a {
+  width: 100%;
+}
+
+.user-wrapper .collection .collection-item > a > span{
+  margin-right: 10px;
+}
+
+.user-wrapper .collection .collection-item > a > i{
+  position: absolute;
+}
+
 .user-wrapper .user-content .switch label {
   color: #009688;
   font-weight: 400;
@@ -63,7 +75,7 @@
   top: 0;
 }
 
-.profile-image {
+.user-wrapper .profile-image {
   margin-bottom: -10px;
 }
 
