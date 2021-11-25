@@ -7,9 +7,7 @@ const Contact = ({ styles }) => {
       <span className={`${styles.icon} btn-floating btn-large lime darken-2`}>
         <i className="material-icons">mail_outline</i>
       </span>
-
       <h2 className="lime-text text-darken-2">Contact Me</h2>
-
       <div className={contactStyles["contact-information"]}>
         <div className="row">
           <div className="col s6 l3">
