@@ -1,0 +1,118 @@
+.user-wrapper {
+  color: #ababab;
+  font-weight: 300;
+  background-color: #fff;
+  max-height: calc(100vh - 177px);
+  overflow-y: scroll;
+}
+
+.user-wrapper .bolder {
+  font-weight: 400;
+}
+
+.user-wrapper .collection {
+  margin: 0;
+}
+
+.user-wrapper .collection .collection-item {
+  padding: 15px 25px;
+  border-color: #eaeaea;
+}
+
+.user-wrapper .user-content .switch label {
+  color: #009688;
+  font-weight: 400;
+}
+
+.user-wrapper
+  .user-content
+  .switch
+  label
+  input[type="checkbox"][disabled]
+  + .lever:after,
+.user-wrapper
+  .user-content
+  .switch
+  label
+  input[type="checkbox"][disabled]:checked
+  + .lever:after {
+  background-color: #009688;
+}
+
+.user-wrapper .user-content .switch label .lever {
+  margin: 0 10px 0 0;
+}
+
+.user-wrapper .user-content .btn {
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  position: relative;
+  padding: 0 15px;
+  line-height: 46px;
+  height: 46px;
+}
+
+.user-wrapper .user-content .btn:last-child {
+  float: right;
+}
+
+.user-wrapper .user-content .btn i {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.profile-image {
+  max-height: 410px !important;
+}
+
+@media (max-width: 400px) {
+  .user-wrapper .user-content .btn {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-image img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .user-wrapper .profile-image,
+  .user-wrapper .user-content {
+    float: left;
+    width: 50%;
+  }
+  .user-wrapper .collection .collection-item {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .profile-image img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .user-wrapper {
+    max-height: 100%;
+    overflow-y: hidden;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1279px) {
+  .user-wrapper .user-content .switch {
+    float: none !important;
+  }
+  .user-wrapper .user-content .btn {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .user-wrapper .user-content .btn:last-child {
+    float: none;
+    margin-bottom: 0;
+  }
+}

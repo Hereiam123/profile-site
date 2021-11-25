@@ -1,0 +1,66 @@
+.skills .skill-item {
+  width: 100%;
+  float: none !important;
+  padding-left: 60px;
+}
+.skills .skill-item .title_value {
+  font-size: 14px;
+}
+
+.skills {
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 45px;
+}
+
+.skills .skill-item {
+  position: relative;
+  padding-left: 90px;
+  padding-top: 15px;
+  margin-bottom: 50px;
+  width: 45%;
+  float: left;
+}
+
+.skills .skill-item:nth-child(even) {
+  float: right;
+}
+
+.skills .skill-item img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.skills .skill-item .title_value {
+  color: #757575;
+  font-size: 16px;
+  position: relative;
+}
+
+.skills .skill-item .title_value .value {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+}
+
+.skills .skill-item .progress {
+  background-color: #d6d6d6;
+  border-radius: 0;
+  height: 5px;
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 600px) {
+  .skills .skill-item {
+    width: 100%;
+    float: none !important;
+    padding-left: 60px;
+  }
+  .skills .skill-item .title_value {
+    font-size: 14px;
+  }
+}

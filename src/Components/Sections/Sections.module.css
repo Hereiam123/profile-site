@@ -1,0 +1,126 @@
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section.no-pad {
+  padding: 0;
+}
+
+.section.no-pad-bot {
+  padding-bottom: 0;
+}
+
+.section.no-pad-top {
+  padding-top: 0;
+}
+
+.section > h1 {
+  font-size: 18px;
+  padding-left: 85px;
+}
+
+.section-table{
+  display: flex;
+}
+/*.section > .icon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  cursor: default;
+  top: -30px;
+  left: 10px;
+  position: absolute;
+}
+.section > .icon > i {
+  line-height: 60px;
+  font-size: 24px;
+}*/
+
+@media (min-width: 993px) {
+  .section {
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section {
+    padding-left: 10%;
+  }
+}
+
+.section {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 75px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.section > h2 {
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+.section > .icon {
+  width: 84px;
+  height: 84px;
+  line-height: 84px;
+  cursor: default;
+  top: -42px;
+  position: absolute;
+  z-index: 99;
+}
+
+.section > .icon > i {
+  line-height: 84px;
+  font-size: 24px;
+}
+
+.section-table .col1 {
+  width: 10%;
+}
+
+.section-table .col2 {
+  width: 35%;
+}
+
+.section-table .col3 {
+  width: 35%;
+}
+
+.section-table .col4 {
+  width: 20%;
+}
+
+@media (max-width: 600px) {
+  .section > h1 {
+    font-size: 18px;
+    padding-left: 85px;
+  }
+  .section > .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    cursor: default;
+    top: -30px;
+    left: 10px;
+    position: absolute;
+  }
+  .section > .icon > i {
+    line-height: 60px;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 993px) {
+  .section {
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section {
+    padding-left: 10%;
+  }
+}

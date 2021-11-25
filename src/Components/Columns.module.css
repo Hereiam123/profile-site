@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+  .right-column,
+  .left-column {
+    float: none;
+    position: relative;
+    width: 100%;
+  }
+  .right-column {
+    background-color: #fff;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 993px) {
+  .left-column {
+    float: left;
+    overflow: hidden;
+    width: 75%;
+  }
+  .right-column {
+    float: right;
+    width: 25%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+  }
+}

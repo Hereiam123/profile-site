@@ -1,0 +1,27 @@
+.copyright {
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 300;
+  position: relative;
+}
+
+.copyright .left,
+.copyright .right {
+  padding: 25px 30px;
+}
+
+.copyright .right {
+  text-align: right;
+}
+
+.copyright .row {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .copyright .left,
+  .copyright .right {
+    padding: 15px 20px;
+    text-align: left;
+  }
+}
