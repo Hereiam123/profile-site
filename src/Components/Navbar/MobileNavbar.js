@@ -28,21 +28,21 @@ const MobileNavbar = () => {
         onClick={() => mobileScrollTo("home")}
       />
       <Button
-        className="yellow darken-1 cyan-text text-darken-2"
+        className="white"
         floating
-        icon={<Icon>account_balance</Icon>}
+        icon={<Icon className="material-icons cyan-text text-darken-2">account_balance</Icon>}
         node="button"
         onClick={() => mobileScrollTo("education")}
       />
       <Button
-        className="green"
+        className="light-green"
         floating
         icon={<Icon>work</Icon>}
         node="button"
         onClick={() => mobileScrollTo("works")}
       />
       <Button
-        className="blue accent-3"
+        className="deep-orange"
         floating
         icon={<Icon>assessment</Icon>}
         node="button"
