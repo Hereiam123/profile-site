@@ -305,10 +305,6 @@ section#contact {
   background-color: #fafafa;
 }
 
-section#contact {
-  padding-bottom: 0;
-}
-
 @media (max-width: 600px) {
   body {
     font-size: 12px;
