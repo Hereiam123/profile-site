@@ -5,6 +5,7 @@ import ReactTooltip from "react-tooltip";
 const UserHeader = () => {
   return (
     <header className="dark-bg">
+      <div id="homeMobile">
       <ul className={styles["social-links"]}>
         <li>
           <a
@@ -37,6 +38,7 @@ const UserHeader = () => {
           </ReactTooltip>
         </li>
       </ul>
+      </div>
       <div className={styles["user_name-title"]}>
         <h2>Brian De Maio</h2>
         <p>Professional Web Developer</p>

@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <Navbar />
       <MobileNavbar/>
-      <div id="home" className={`light-bg ${styles["header-wrap"]}`}>
+      <div id="homeDesktop" className={`light-bg ${styles["header-wrap"]}`}>
         <div className={`${styles["header-content"]}`}>
           <h1>
             My name is <strong>Brian De Maio</strong> |

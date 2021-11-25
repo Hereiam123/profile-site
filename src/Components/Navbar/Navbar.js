@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className={`${styles["nav-wrapper"]}`}>
           <ul>
             <li>
-              <Link to="home" activeClass="active" spy={true} smooth={true}>
+              <Link to="homeDesktop" activeClass="active" spy={true} smooth={true}>
                 Home
               </Link>
             </li>
