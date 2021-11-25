@@ -74,16 +74,18 @@ const Skills = ({ styles }) => {
         <i className="material-icons">assessment</i>
       </span>
       <h2 className="deep-orange-text text-accent-3">Professional skills</h2>
-      <div className={skillsStyles.skills}>
+      <div className={`${styles["grid-container"]} ${styles["content"]} ${styles["skills"]} ${skillsStyles.skills}`}>
         {skills.map((skillItem) => {
           return (
-            <div key={skillItem.title} className={skillsStyles["skill-item"]}>
-              <img
-                src={skillItem.img.src}
-                className="circle"
-                alt={skillItem.img.alt}
-              />
-              <div className="title_value">{skillItem.title}</div>
+            <div key={skillItem.title} className={styles["grid-item"]}>
+              <div className={skillsStyles["skill-item"]}>
+                <img
+                  src={skillItem.img.src}
+                  className="circle"
+                  alt={skillItem.img.alt}
+                />
+                <div className="title_value">{skillItem.title}</div>
+              </div>
             </div>
           );
         })}

@@ -10,34 +10,34 @@ const Education = ({ styles }) => {
         </i>
       </span>
       <h2 className="cyan-text text-darken-2">Education</h2>
-      <div className={`highlight ${styles["section-table"]}`}>
-        <div className={styles["grid-container"]}>
-          <div className={styles["grid-item"]}>
-            <h3>Education Department</h3>
-          </div>
-          <div className={styles["grid-item"]}>
-            <h3>Date</h3>
-          </div>
-          <div className={styles["grid-item"]}>
-            <img
-              src={collegePicture}
-              alt="College Icon"
-              className="circle icon"
-            />
-          </div>
-          <div className={styles["grid-item"]}>
-            <p>University of Central Florida</p>
-          </div>
-          <div className={styles["grid-item"]}>
-            <p>
-              College of Arts and Humanities
-              <br />
-              Digital Media-Web Design and Developement
-            </p>
-          </div>
-          <div className={styles["grid-item"]}>
-            <p>2007 - 2014</p>
-          </div>
+      <div className={`${styles["grid-container"]} ${styles["header"]}`}>
+        <div className={styles["grid-item"]}>
+          <h3>Education Department</h3>
+        </div>
+        <div className={styles["grid-item"]}>
+          <h3>Date</h3>
+        </div>
+      </div>
+      <div className={`${styles["grid-container"]} ${styles["content"]}`}>
+        <div className={styles["grid-item"]}>
+          <img
+            src={collegePicture}
+            alt="College Icon"
+            className="circle icon"
+          />
+        </div>
+        <div className={styles["grid-item"]}>
+          <p>University of Central Florida</p>
+        </div>
+        <div className={styles["grid-item"]}>
+          <p>
+            College of Arts and Humanities
+            <br />
+            Digital Media-Web Design and Developement
+          </p>
+        </div>
+        <div className={styles["grid-item"]}>
+          <p>2007 - 2014</p>
         </div>
       </div>
     </section>

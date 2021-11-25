@@ -29,7 +29,7 @@ const initialState = [
     jobTitle: "Senior Web Analyst and Implementation Engineer",
     workDate: "2019 - Present",
   },
-]
+];
 
 const Work = ({ styles }) => {
   const [work] = useState(initialState);
@@ -41,24 +41,38 @@ const Work = ({ styles }) => {
         <i className="material-icons">work</i>
       </span>
       <h2 className="light-green-text text-darken-3">Work experience</h2>
-      <div className={`highlight ${styles["section-table"]}`}>
-        <h3>Business Name / Department</h3>
-        <h3>Date</h3>
+      <div className={`${styles["grid-container"]} ${styles["header"]}`}>
+        <div className={styles["grid-item"]}>
+          <h3>Business Name / Department</h3>
+        </div>
+        <div className={styles["grid-item"]}>
+          <h3>Date</h3>
+        </div>
+      </div>
+      <div className={`${styles["grid-container"]} ${styles["content"]}`}>
         {work.map((workItem) => {
           return (
-            <div key={workItem.title}>
-              <img
-                src={workItem.img.src}
-                alt={workItem.img.alt}
-                className="circle icon"
-              />
-              <p className="col2">{workItem.title}</p>
-              <p className="col3">
-                {workItem.jobTitle}
-                <span className="light-green-text text-darken-3"></span>
-              </p>
-              <p className="col4">{workItem.workDate}</p>
-            </div>
+            <React.Fragment key={workItem.title}>
+              <div className={styles["grid-item"]}>
+                <img
+                  src={workItem.img.src}
+                  alt={workItem.img.alt}
+                  className="circle icon"
+                />
+              </div>
+              <div className={styles["grid-item"]}>
+                <p>{workItem.title}</p>
+              </div>
+              <div className={styles["grid-item"]}>
+                <p>
+                  {workItem.jobTitle}
+                  <span className="light-green-text text-darken-3"></span>
+                </p>
+              </div>
+              <div className={styles["grid-item"]}>
+                <p>{workItem.workDate}</p>
+              </div>
+            </React.Fragment>
           );
         })}
       </div>
