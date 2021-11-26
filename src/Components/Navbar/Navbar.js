@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className={`${styles["nav-wrapper"]}`}>
           <ul>
             <li>
-              <Link to="homeDesktop" activeClass="active" spy={true} smooth={true}>
+              <Link to="homeDesktop" activeClass="active" spy={true} smooth={true} className="navbar-link">
                 Home
               </Link>
             </li>
@@ -18,27 +18,28 @@ const Navbar = () => {
                 to="education"
                 spy={true}
                 smooth={true}
+                className="navbar-link"
               >
                 Education
               </Link>
             </li>
             <li>
-              <Link to="works" spy={true} smooth={true}>
+              <Link to="works" spy={true} smooth={true} className="navbar-link">
                 Work Experience
               </Link>
             </li>
             <li>
-              <Link to="skills" spy={true} smooth={true}>
+              <Link to="skills" spy={true} smooth={true} className="navbar-link">
                 Skills
               </Link>
             </li>
             <li>
-              <Link to="services" spy={true} smooth={true}>
+              <Link to="services" spy={true} smooth={true} className="navbar-link">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="contact" spy={true} smooth={true}>
+              <Link to="contact" spy={true} smooth={true} className="navbar-link">
                 Contact
               </Link>
             </li>
