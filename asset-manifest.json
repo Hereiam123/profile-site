@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.30799af7.chunk.css",
-    "main.js": "./static/js/main.9882dc6c.chunk.js",
-    "main.js.map": "./static/js/main.9882dc6c.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.bbeedb56.js",
-    "runtime-main.js.map": "./static/js/runtime-main.bbeedb56.js.map",
+    "main.js": "./static/js/main.7a260740.chunk.js",
+    "main.js.map": "./static/js/main.7a260740.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d8895fe6.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d8895fe6.js.map",
     "static/css/2.ecbc8ff6.chunk.css": "./static/css/2.ecbc8ff6.chunk.css",
     "static/js/2.45b84c13.chunk.js": "./static/js/2.45b84c13.chunk.js",
     "static/js/2.45b84c13.chunk.js.map": "./static/js/2.45b84c13.chunk.js.map",
-    "static/js/3.985e82c4.chunk.js": "./static/js/3.985e82c4.chunk.js",
-    "static/js/3.985e82c4.chunk.js.map": "./static/js/3.985e82c4.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.ecbc8ff6.chunk.css.map": "./static/css/2.ecbc8ff6.chunk.css.map",
     "static/css/main.30799af7.chunk.css.map": "./static/css/main.30799af7.chunk.css.map",
@@ -29,10 +27,10 @@
     "static/media/roller-coaster.fe6af4e3.png": "./static/media/roller-coaster.fe6af4e3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bbeedb56.js",
+    "static/js/runtime-main.d8895fe6.js",
     "static/css/2.ecbc8ff6.chunk.css",
     "static/js/2.45b84c13.chunk.js",
     "static/css/main.30799af7.chunk.css",
-    "static/js/main.9882dc6c.chunk.js"
+    "static/js/main.7a260740.chunk.js"
   ]
 }
