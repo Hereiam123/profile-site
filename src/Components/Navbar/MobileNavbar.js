@@ -11,7 +11,7 @@ const MobileNavbar = () => {
   };
   return (
     <Button
-      className="btn btn-floating btn-large light-bg"
+      className="btn btn-floating btn-large light-bg navbar-link-mobile"
       icon={<Icon>menu</Icon>}
       fab={{
         hoverEnabled: false,
@@ -21,42 +21,42 @@ const MobileNavbar = () => {
       node="button"
     >
       <Button
-        className="blue"
+        className="blue navbar-link-mobile"
         floating
         icon={<Icon>home</Icon>}
         node="button"
         onClick={() => mobileScrollTo("homeMobile")}
       />
       <Button
-        className="white"
+        className="white navbar-link-mobile"
         floating
         icon={<Icon className="material-icons cyan-text text-darken-2">account_balance</Icon>}
         node="button"
         onClick={() => mobileScrollTo("education")}
       />
       <Button
-        className="light-green"
+        className="light-green navbar-link-mobile"
         floating
         icon={<Icon>work</Icon>}
         node="button"
         onClick={() => mobileScrollTo("works")}
       />
       <Button
-        className="deep-orange"
+        className="deep-orange navbar-link-mobile"
         floating
         icon={<Icon>assessment</Icon>}
         node="button"
         onClick={() => mobileScrollTo("skills")}
       />
       <Button
-        className="deep-purple darken-3"
+        className="deep-purple darken-3 navbar-link-mobile"
         floating
         icon={<Icon>important_devices</Icon>}
         node="button"
         onClick={() => mobileScrollTo("services")}
       />
       <Button
-        className="lime darken-2"
+        className="lime darken-2 navbar-link-mobile"
         floating
         icon={<Icon>mail_outline</Icon>}
         node="button"
