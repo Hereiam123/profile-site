@@ -11,17 +11,19 @@ const MobileNavbar = () => {
   };
   return (
     <Button
-      className="btn btn-floating btn-large light-bg navbar-link-mobile"
+      className="btn btn-floating btn-large light-bg navbar-link-mobile-open"
       icon={<Icon>menu</Icon>}
       fab={{
         hoverEnabled: false,
       }}
+      data-name="Mobile Menu Open"
       floating
       large
       node="button"
     >
       <Button
-        className="blue navbar-link-mobile"
+        className="blue navbar-link-mobile-home"
+        data-name="Home"
         floating
         icon={<Icon>home</Icon>}
         node="button"
@@ -29,6 +31,7 @@ const MobileNavbar = () => {
       />
       <Button
         className="white navbar-link-mobile"
+        data-name="Education"
         floating
         icon={<Icon className="material-icons cyan-text text-darken-2">account_balance</Icon>}
         node="button"
@@ -36,6 +39,7 @@ const MobileNavbar = () => {
       />
       <Button
         className="light-green navbar-link-mobile"
+        data-name="Works"
         floating
         icon={<Icon>work</Icon>}
         node="button"
@@ -43,6 +47,7 @@ const MobileNavbar = () => {
       />
       <Button
         className="deep-orange navbar-link-mobile"
+        data-name="Skills"
         floating
         icon={<Icon>assessment</Icon>}
         node="button"
@@ -50,6 +55,7 @@ const MobileNavbar = () => {
       />
       <Button
         className="deep-purple darken-3 navbar-link-mobile"
+        data-name="Services"
         floating
         icon={<Icon>important_devices</Icon>}
         node="button"
@@ -57,6 +63,7 @@ const MobileNavbar = () => {
       />
       <Button
         className="lime darken-2 navbar-link-mobile"
+        data-name="Contact"
         floating
         icon={<Icon>mail_outline</Icon>}
         node="button"
