@@ -11,6 +11,8 @@ const Education = ({ styles }) => {
       </span>
       <h2 className="cyan-text text-darken-2">Education</h2>
       <div className={`${styles["grid-container"]} ${styles["header"]}`}>
+        <div className={styles["grid-item"]}></div>
+        <div className={styles["grid-item"]}></div>
         <div className={styles["grid-item"]}>
           <h3>Education Department</h3>
         </div>

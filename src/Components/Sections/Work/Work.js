@@ -42,6 +42,8 @@ const Work = ({ styles }) => {
       </span>
       <h2 className="light-green-text text-darken-3">Work experience</h2>
       <div className={`${styles["grid-container"]} ${styles["header"]}`}>
+        <div className={styles["grid-item"]}></div>
+        <div className={styles["grid-item"]}></div>
         <div className={styles["grid-item"]}>
           <h3>Business Name / Department</h3>
         </div>
