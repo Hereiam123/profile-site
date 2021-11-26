@@ -33,7 +33,6 @@ const UserWrapper = () => {
           </li>
         </ul>
       </div>
-      <div className="clearfix"></div>
     </div>
   );
 };

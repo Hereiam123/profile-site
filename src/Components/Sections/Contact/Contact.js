@@ -32,12 +32,10 @@ const Contact = ({ styles }) => {
             </div>
             <a href="http://maps.google.com/?q=Orlando">
               <p>
-                Orlando <br />
-                FL, USA
+                Orlando FL, USA
               </p>
             </a>
           </div>
-          <div className="clearfix"></div>
         </div>
       </div>
     </section>
