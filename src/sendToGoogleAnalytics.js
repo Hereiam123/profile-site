@@ -1,20 +1,10 @@
-function sendToGoogleAnalytics({name, delta, value, id}) {
-    // Assumes the global `gtag()` function exists, see:
-    // https://developers.google.com/analytics/devguides/collection/ga4
-    window.gtag('event', name, {
-      // Built-in params:
-      value: delta, // Use `delta` so the value can be summed.
-      // Custom params:
-      metric_id: id, // Needed to aggregate events.
-      metric_value: value, // Optional.
-      metric_delta: delta, // Optional.
-  
-      // OPTIONAL: any additional params or debug info here.
-      // See: https://web.dev/debug-web-vitals-in-the-field/
-      // metric_rating: 'good' | 'ni' | 'poor',
-      // debug_info: '...',
-      // ...
-    });
+function sendToGoogleTagManager({name, delta, value, id}) {
+    /*window.datalayer.push('event', name, {
+      value: delta,
+      metric_id: id,
+      metric_value: value, 
+      metric_delta: delta, 
+    });*/
   }
 
-  export default sendToGoogleAnalytics;
+  export default sendToGoogleTagManager;
