@@ -2,9 +2,9 @@
   border-radius: 50%;
 }
 
-.circle.icon{
-  width:156px;
-  height:156px;
+.circle.icon {
+  width: 156px;
+  height: 156px;
 }
 
 .grid-container.header {
@@ -83,6 +83,24 @@
 }
 
 @media (max-width: 600px) {
+  .circle.icon {
+    width: 200px;
+    height: 200px;
+  }
+
+  .grid-item {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .grid-container.header {
+    display: none !important;
+  }
+
+  .grid-container.content {
+    grid-template-columns: 1fr !important;
+  }
+
   .section > h1 {
     font-size: 18px;
     padding-left: 85px;
@@ -99,19 +117,6 @@
   .section > .icon > i {
     line-height: 60px;
     font-size: 24px;
-  }
-
-  .grid-item{
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .grid-container.header {
-    display: none !important;
-  }
-
-  .grid-container.content {
-    grid-template-columns: 1fr !important;
   }
 }
 

@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 992px) {
-  .contact-information .col {
+  .contact-information .contact-column {
     margin-bottom: 30px;
     padding-left: 30px;
   }

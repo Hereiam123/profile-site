@@ -10,7 +10,7 @@ const Contact = ({ styles }) => {
       <h2 className="lime-text text-darken-2">Contact Me</h2>
       <div className={contactStyles["contact-information"]}>
         <div className="row">
-          <div className="col s6 l3">
+          <div className={`${contactStyles["contact-column"]} col s6 l3`}>
             <div className={contactStyles["icon"]}>
               <i className="material-icons">email</i>
             </div>
@@ -18,8 +18,7 @@ const Contact = ({ styles }) => {
               <p>bdemaio1@gmail.com</p>
             </a>
           </div>
-
-          <div className="col s6 l3">
+          <div className={`${contactStyles["contact-column"]} col s6 l3`}>
             <div className={contactStyles["icon"]}>
               <i className="material-icons">phone_iphone</i>
             </div>
@@ -27,7 +26,7 @@ const Contact = ({ styles }) => {
               <p>(407)797-9158</p>
             </a>
           </div>
-          <div className="col s6 l3">
+          <div className={`${contactStyles["contact-column"]} col s6 l3`}>
             <div className={contactStyles["icon"]}>
               <i className="material-icons">location_on</i>
             </div>
