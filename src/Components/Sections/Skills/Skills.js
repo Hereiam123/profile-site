@@ -73,7 +73,7 @@ const Skills = ({ styles }) => {
       >
         <i className="material-icons">assessment</i>
       </span>
-      <h2 className="deep-orange-text text-accent-3">Professional skills</h2>
+      <h2 className="deep-orange-text text-accent-3">Professional Skills</h2>
       <div className={`${styles["grid-container"]} ${styles["content"]} ${styles["skills"]} ${skillsStyles.skills}`}>
         {skills.map((skillItem) => {
           return (
@@ -81,7 +81,7 @@ const Skills = ({ styles }) => {
               <div className={skillsStyles["skill-item"]}>
                 <img
                   src={skillItem.img.src}
-                  className="circle"
+                  className={styles["circle"]}
                   alt={skillItem.img.alt}
                 />
                 <div className="title_value">{skillItem.title}</div>

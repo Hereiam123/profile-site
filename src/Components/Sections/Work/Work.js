@@ -40,7 +40,7 @@ const Work = ({ styles }) => {
       >
         <i className="material-icons">work</i>
       </span>
-      <h2 className="light-green-text text-darken-3">Work experience</h2>
+      <h2 className="light-green-text text-darken-3">Work Experience</h2>
       <div className={`${styles["grid-container"]} ${styles["header"]}`}>
         <div className={styles["grid-item"]}></div>
         <div className={styles["grid-item"]}></div>
@@ -59,7 +59,7 @@ const Work = ({ styles }) => {
                 <img
                   src={workItem.img.src}
                   alt={workItem.img.alt}
-                  className="circle icon"
+                  className={`${styles["circle"]} ${styles["icon"]}`}
                 />
               </div>
               <div className={styles["grid-item"]}>

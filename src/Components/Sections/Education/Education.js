@@ -25,7 +25,7 @@ const Education = ({ styles }) => {
           <img
             src={collegePicture}
             alt="College Icon"
-            className="circle icon"
+            className={`${styles["circle"]} ${styles["icon"]}`}
           />
         </div>
         <div className={styles["grid-item"]}>
