@@ -14,7 +14,7 @@
 }
 
 .grid-item {
-  padding: 10px;
+  padding: 15px;
   font-size: 14px;
 }
 
@@ -53,18 +53,6 @@
   line-height: 60px;
   font-size: 24px;
 }*/
-
-@media (min-width: 993px) {
-  .section {
-    padding-left: 5%;
-  }
-}
-
-@media (min-width: 1280px) {
-  .section {
-    padding-left: 10%;
-  }
-}
 
 .section {
   position: relative;
@@ -116,6 +104,10 @@
   .section > .icon > i {
     line-height: 60px;
     font-size: 24px;
+  }
+
+  .grid-item{
+    text-align: center;
   }
 
   .grid-container.header {

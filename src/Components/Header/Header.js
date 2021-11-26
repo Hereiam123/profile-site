@@ -14,7 +14,7 @@ const Header = () => {
             My name is <strong>Brian De Maio</strong> |
           </h1>
           <span className={`${styles["sub-text"]}`}>
-            I love <strong>Programming</strong>,<strong>UI Design</strong>, and
+            I love <strong>Programming, UI Design,</strong> and
             <strong> Web and App Development</strong>
           </span>
         </div>

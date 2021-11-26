@@ -11,7 +11,7 @@ const Contact = ({ styles }) => {
       <div className={contactStyles["contact-information"]}>
         <div className="row">
           <div className="col s6 l3">
-            <div className="icon">
+            <div className={contactStyles["icon"]}>
               <i className="material-icons">email</i>
             </div>
             <a href="mailto:bdemaio1@gmail.com">
@@ -20,7 +20,7 @@ const Contact = ({ styles }) => {
           </div>
 
           <div className="col s6 l3">
-            <div className="icon">
+            <div className={contactStyles["icon"]}>
               <i className="material-icons">phone_iphone</i>
             </div>
             <a href="tel:407-797-9158">
@@ -28,7 +28,7 @@ const Contact = ({ styles }) => {
             </a>
           </div>
           <div className="col s6 l3">
-            <div className="icon">
+            <div className={contactStyles["icon"]}>
               <i className="material-icons">location_on</i>
             </div>
             <a href="http://maps.google.com/?q=Orlando">
