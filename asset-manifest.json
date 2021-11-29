@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.0c758b16.chunk.css",
-    "main.js": "./static/js/main.a1e03023.chunk.js",
-    "main.js.map": "./static/js/main.a1e03023.chunk.js.map",
+    "main.js": "./static/js/main.287bc604.chunk.js",
+    "main.js.map": "./static/js/main.287bc604.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d8895fe6.js",
     "runtime-main.js.map": "./static/js/runtime-main.d8895fe6.js.map",
     "static/css/2.ecbc8ff6.chunk.css": "./static/css/2.ecbc8ff6.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/google_analytics.4e20acbd.png": "./static/media/google_analytics.4e20acbd.png",
     "static/media/hotel.3b20df86.png": "./static/media/hotel.3b20df86.png",
     "static/media/html_logo.67081136.png": "./static/media/html_logo.67081136.png",
-    "static/media/javascript_logo.ff7598da.png": "./static/media/javascript_logo.ff7598da.png",
+    "static/media/javascript_logo.621f6061.png": "./static/media/javascript_logo.621f6061.png",
     "static/media/jquery_logo.04d63352.png": "./static/media/jquery_logo.04d63352.png",
     "static/media/roller-coaster.fe6af4e3.png": "./static/media/roller-coaster.fe6af4e3.png"
   },
@@ -31,6 +31,6 @@
     "static/css/2.ecbc8ff6.chunk.css",
     "static/js/2.64ee59ac.chunk.js",
     "static/css/main.0c758b16.chunk.css",
-    "static/js/main.a1e03023.chunk.js"
+    "static/js/main.287bc604.chunk.js"
   ]
 }
