@@ -6,8 +6,18 @@
   position: relative;
 }
 
+.portfolio-item-container a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
 .overlay-text {
-  /*position: absolute;*/
+  position: absolute;
+  margin: 25px;
+  padding: 10px;
+  background: black;
 }
 
 @media (min-width: 768px) {

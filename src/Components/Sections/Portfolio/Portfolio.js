@@ -15,11 +15,11 @@ const Portfolio = ({ styles }) => {
       >
         <i className="material-icons">important_devices</i>
       </span>
-      <h2 className="deep-purple-text text-darken-3">Portfolio</h2>
-      <div id="Services_Carousel">
+      <h2 className="blue-text text-darken-3">Portfolio</h2>
+      <div id="Portfolio_Carousel">
         <Swiper
           modules={[Navigation]}
-          spaceBetween={200}
+          spaceBetween={50}
           slidesPerView={1}
           navigation
           breakpoints={{
@@ -30,43 +30,46 @@ const Portfolio = ({ styles }) => {
           }}
         >
           <SwiperSlide>
-            <a
-              href="https://www.theoperation.org"
-              className={portfolioStyles["portfolio-item-container"]}
-            >
-              <img src={TheOperationImage} />
-            </a>
-            <p className={portfolioStyles["overlay-text"]}>
-              <a href="https://www.theoperation.org">Dev Operations </a>is a
-              site focused on linking together developers and anyone involved in
-              the programming space. Built using React, Redux, Node and MongoDB
-            </p>
+            <div className={portfolioStyles["portfolio-item-container"]}>
+              <a
+                href="https://www.theoperation.org"
+                style={{ backgroundImage: `url(${TheOperationImage})` }}
+              >
+                {/*<img src={TheOperationImage} />*/}
+              </a>
+              <p className={portfolioStyles["overlay-text"]}>
+                <a href="https://www.theoperation.org">Dev Operations </a>is a
+                site focused on linking together developers and anyone involved
+                in the programming space. Built using React, Redux, Node and
+                MongoDB
+              </p>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <a
-              href="https://www.inspace.info"
-              className={portfolioStyles["portfolio-item-container"]}
-            >
-              <img src={InspaceImage} />
-            </a>
-            <p className={portfolioStyles["overlay-text"]}>
-              <a href="https://www.inspace.info">Inspace </a>is a React
-              application where users can view SpaceX launch information, using
-              the SpaceX v4 API and Graphql.
-            </p>
+            <div className={portfolioStyles["portfolio-item-container"]}>
+              <a
+                href="https://www.inspace.info"
+                style={{ backgroundImage: `url(${InspaceImage})` }}
+              ></a>
+              <p className={portfolioStyles["overlay-text"]}>
+                <a href="https://www.inspace.info">Inspace </a>is a React
+                application where users can view SpaceX launch information,
+                using the SpaceX v4 API and Graphql.
+              </p>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <a
-              href="https://www.reactroll.com"
-              className={portfolioStyles["portfolio-item-container"]}
-            >
-              <img src={ReactRollImage} />
-            </a>
-            <p className={portfolioStyles["overlay-text"]}>
-              <a href="https://www.reactroll.com">React Roll </a>is a simple
-              React image website filled with randoms images pulled from the
-              Unsplash API, but with the spin of infinite scrolling.
-            </p>
+            <div className={portfolioStyles["portfolio-item-container"]}>
+              <a
+                href="https://www.reactroll.com"
+                style={{ backgroundImage: `url(${ReactRollImage})` }}
+              ></a>
+              <p className={portfolioStyles["overlay-text"]}>
+                <a href="https://www.reactroll.com">React Roll </a>is a simple
+                React image website filled with randoms images pulled from the
+                Unsplash API, but with the spin of infinite scrolling.
+              </p>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>
