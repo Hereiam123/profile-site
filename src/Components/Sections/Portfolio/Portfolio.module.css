@@ -1,0 +1,17 @@
+.portfolio-item-container {
+  height: 200px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .portfolio-item-container {
+    height: 200px;
+  }
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
