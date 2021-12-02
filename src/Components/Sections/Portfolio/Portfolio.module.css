@@ -3,6 +3,11 @@
   width: auto;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.overlay-text {
+  /*position: absolute;*/
 }
 
 @media (min-width: 768px) {

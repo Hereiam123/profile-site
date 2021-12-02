@@ -30,19 +30,43 @@ const Portfolio = ({ styles }) => {
           }}
         >
           <SwiperSlide>
-            <a href="https://www.theoperation.org" className={portfolioStyles['portfolio-item-container']}>
-              <img src={TheOperationImage}/>
+            <a
+              href="https://www.theoperation.org"
+              className={portfolioStyles["portfolio-item-container"]}
+            >
+              <img src={TheOperationImage} />
             </a>
+            <p className={portfolioStyles["overlay-text"]}>
+              <a href="https://www.theoperation.org">Dev Operations </a>is a
+              site focused on linking together developers and anyone involved in
+              the programming space. Built using React, Redux, Node and MongoDB
+            </p>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="https://www.inspace.info" className={portfolioStyles['portfolio-item-container']}>
-                <img src={InspaceImage}/>
+            <a
+              href="https://www.inspace.info"
+              className={portfolioStyles["portfolio-item-container"]}
+            >
+              <img src={InspaceImage} />
             </a>
+            <p className={portfolioStyles["overlay-text"]}>
+              <a href="https://www.inspace.info">Inspace </a>is a React
+              application where users can view SpaceX launch information, using
+              the SpaceX v4 API and Graphql.
+            </p>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="https://www.reactroll.com" className={portfolioStyles['portfolio-item-container']}>
-                <img src={ReactRollImage}/>
+            <a
+              href="https://www.reactroll.com"
+              className={portfolioStyles["portfolio-item-container"]}
+            >
+              <img src={ReactRollImage} />
             </a>
+            <p className={portfolioStyles["overlay-text"]}>
+              <a href="https://www.reactroll.com">React Roll </a>is a simple
+              React image website filled with randoms images pulled from the
+              Unsplash API, but with the spin of infinite scrolling.
+            </p>
           </SwiperSlide>
         </Swiper>
       </div>
