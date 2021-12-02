@@ -66,7 +66,7 @@ const MobileNavbar = () => {
         onClick={() => mobileScrollTo("services")}
       />
       <Button
-        className="light-bg darken-3 navbar-link-mobile"
+        className="blue darken-3 navbar-link-mobile"
         data-name="Portfolio"
         floating
         icon={<Icon>center_focus_strong</Icon>}

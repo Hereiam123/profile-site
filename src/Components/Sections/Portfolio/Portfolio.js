@@ -11,7 +11,7 @@ const Portfolio = ({ styles }) => {
   return (
     <section id="portfolio" className={styles.section}>
       <span
-        className={`${styles.icon} btn-floating btn-large light-bg darken-3`}
+        className={`${styles.icon} btn-floating btn-large blue darken-3`}
       >
         <i className="material-icons">center_focus_strong</i>
       </span>
