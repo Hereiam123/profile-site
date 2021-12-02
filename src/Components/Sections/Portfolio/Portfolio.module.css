@@ -10,7 +10,9 @@
   display: block;
   height: 100%;
   width: 100%;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .overlay-text {
@@ -20,9 +22,9 @@
   background: black;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .portfolio-item-container {
-    height: 200px;
+    height: 250px;
   }
 }
 
