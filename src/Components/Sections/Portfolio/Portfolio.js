@@ -13,7 +13,7 @@ const Portfolio = ({ styles }) => {
       <span
         className={`${styles.icon} btn-floating btn-large light-bg darken-3`}
       >
-        <i className="material-icons">important_devices</i>
+        <i className="material-icons">center_focus_strong</i>
       </span>
       <h2 className="blue-text text-darken-3">Portfolio</h2>
       <div id="Portfolio_Carousel">

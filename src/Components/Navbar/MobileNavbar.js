@@ -33,7 +33,11 @@ const MobileNavbar = () => {
         className="white navbar-link-mobile"
         data-name="Education"
         floating
-        icon={<Icon className="material-icons cyan-text text-darken-2">account_balance</Icon>}
+        icon={
+          <Icon className="material-icons cyan-text text-darken-2">
+            account_balance
+          </Icon>
+        }
         node="button"
         onClick={() => mobileScrollTo("education")}
       />
@@ -60,6 +64,14 @@ const MobileNavbar = () => {
         icon={<Icon>important_devices</Icon>}
         node="button"
         onClick={() => mobileScrollTo("services")}
+      />
+      <Button
+        className="light-bg darken-3 navbar-link-mobile"
+        data-name="Portfolio"
+        floating
+        icon={<Icon>center_focus_strong</Icon>}
+        node="button"
+        onClick={() => mobileScrollTo("portfolio")}
       />
       <Button
         className="lime darken-2 navbar-link-mobile"
