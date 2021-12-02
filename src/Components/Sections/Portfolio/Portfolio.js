@@ -39,7 +39,7 @@ const Portfolio = ({ styles }) => {
               </a>
               <p className={portfolioStyles["overlay-text"]}>
                 <a href="https://www.theoperation.org">Dev Operations </a>is a
-                site focused on linking together developers and anyone involved
+                site focused on linking together developers, and anyone involved
                 in the programming space. Built using React, Redux, Node and
                 MongoDB
               </p>

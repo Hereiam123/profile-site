@@ -6,7 +6,13 @@
   position: relative;
 }
 
-.portfolio-item-container a {
+.portfolio-item-container:hover {
+  height: 220px;
+  width: 420px;
+  transition: height .2s ease-out, width .2s ease-out;
+}
+
+.portfolio-item-container>a {
   display: block;
   height: 100%;
   width: 100%;
@@ -15,13 +21,17 @@
   background-repeat: no-repeat;
 }
 
+.portfolio-item-container p{
+  color: white;
+}
+
 .overlay-text {
   position: absolute;
   margin: 0 5px;
   padding: 10px;
   bottom: 0;
   left: 0;
-  background: black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
