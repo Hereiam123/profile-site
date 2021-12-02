@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.0c758b16.chunk.css",
-    "main.js": "./static/js/main.287bc604.chunk.js",
-    "main.js.map": "./static/js/main.287bc604.chunk.js.map",
+    "main.css": "./static/css/main.5a957811.chunk.css",
+    "main.js": "./static/js/main.3a1ef03f.chunk.js",
+    "main.js.map": "./static/js/main.3a1ef03f.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d8895fe6.js",
     "runtime-main.js.map": "./static/js/runtime-main.d8895fe6.js.map",
     "static/css/2.ecbc8ff6.chunk.css": "./static/css/2.ecbc8ff6.chunk.css",
-    "static/js/2.64ee59ac.chunk.js": "./static/js/2.64ee59ac.chunk.js",
-    "static/js/2.64ee59ac.chunk.js.map": "./static/js/2.64ee59ac.chunk.js.map",
+    "static/js/2.1e09624c.chunk.js": "./static/js/2.1e09624c.chunk.js",
+    "static/js/2.1e09624c.chunk.js.map": "./static/js/2.1e09624c.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.ecbc8ff6.chunk.css.map": "./static/css/2.ecbc8ff6.chunk.css.map",
-    "static/css/main.0c758b16.chunk.css.map": "./static/css/main.0c758b16.chunk.css.map",
-    "static/js/2.64ee59ac.chunk.js.LICENSE.txt": "./static/js/2.64ee59ac.chunk.js.LICENSE.txt",
+    "static/css/main.5a957811.chunk.css.map": "./static/css/main.5a957811.chunk.css.map",
+    "static/js/2.1e09624c.chunk.js.LICENSE.txt": "./static/js/2.1e09624c.chunk.js.LICENSE.txt",
     "static/media/Office_icon.81ecf97a.png": "./static/media/Office_icon.81ecf97a.png",
     "static/media/Profile_Image.ffda3f02.jpg": "./static/media/Profile_Image.ffda3f02.jpg",
     "static/media/adobe_illustrator.c1d0e881.png": "./static/media/adobe_illustrator.c1d0e881.png",
@@ -24,13 +24,16 @@
     "static/media/html_logo.67081136.png": "./static/media/html_logo.67081136.png",
     "static/media/javascript_logo.621f6061.png": "./static/media/javascript_logo.621f6061.png",
     "static/media/jquery_logo.04d63352.png": "./static/media/jquery_logo.04d63352.png",
-    "static/media/roller-coaster.fe6af4e3.png": "./static/media/roller-coaster.fe6af4e3.png"
+    "static/media/portfolio_inspace.213a2fb9.png": "./static/media/portfolio_inspace.213a2fb9.png",
+    "static/media/react_roll.fe194c54.png": "./static/media/react_roll.fe194c54.png",
+    "static/media/roller-coaster.fe6af4e3.png": "./static/media/roller-coaster.fe6af4e3.png",
+    "static/media/the_operation.cd80437f.png": "./static/media/the_operation.cd80437f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d8895fe6.js",
     "static/css/2.ecbc8ff6.chunk.css",
-    "static/js/2.64ee59ac.chunk.js",
-    "static/css/main.0c758b16.chunk.css",
-    "static/js/main.287bc604.chunk.js"
+    "static/js/2.1e09624c.chunk.js",
+    "static/css/main.5a957811.chunk.css",
+    "static/js/main.3a1ef03f.chunk.js"
   ]
 }
