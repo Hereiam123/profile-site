@@ -1,6 +1,6 @@
 .portfolio-item-container {
   height: 200px;
-  width: auto;
+  width: 400px;
   display: flex;
   justify-content: center;
   position: relative;

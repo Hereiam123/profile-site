@@ -121,6 +121,11 @@ section#contact {
   background-color: #fafafa;
 }
 
+section#portfolio .swiper-slide {
+  justify-content: center;
+  display: flex;
+}
+
 @media (min-width: 768px) {
   section#portfolio .swiper-wrapper {
     padding-left: 10%;
