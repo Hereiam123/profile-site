@@ -29,17 +29,17 @@ const Portfolio = ({ styles }) => {
           }}
         >
           <SwiperSlide>
-            <div className={servicesStyles["service-item"]}>
+            <div>
               <img src={TheOperationImage}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={servicesStyles["service-item"]}>
+            <div>
                 <img src={InspaceImage}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={servicesStyles["service-item"]}>
+            <div>
                 <img src={ReactRollImage}/>
             </div>
           </SwiperSlide>
