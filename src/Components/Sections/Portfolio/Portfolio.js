@@ -35,14 +35,13 @@ const Portfolio = ({ styles }) => {
                 href="https://www.theoperation.org"
                 style={{ backgroundImage: `url(${TheOperationImage})` }}
               >
-                {/*<img src={TheOperationImage} />*/}
+                <p className={portfolioStyles["overlay-text"]}>
+                  <a href="https://www.theoperation.org">Dev Operations </a>is a
+                  site focused on linking together developers, and anyone
+                  involved in the programming space. Built using React, Redux,
+                  Node and MongoDB
+                </p>
               </a>
-              <p className={portfolioStyles["overlay-text"]}>
-                <a href="https://www.theoperation.org">Dev Operations </a>is a
-                site focused on linking together developers, and anyone involved
-                in the programming space. Built using React, Redux, Node and
-                MongoDB
-              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -50,12 +49,13 @@ const Portfolio = ({ styles }) => {
               <a
                 href="https://www.inspace.info"
                 style={{ backgroundImage: `url(${InspaceImage})` }}
-              ></a>
-              <p className={portfolioStyles["overlay-text"]}>
-                <a href="https://www.inspace.info">Inspace </a>is a React
-                application where users can view SpaceX launch information,
-                using the SpaceX v4 API and Graphql.
-              </p>
+              >
+                <p className={portfolioStyles["overlay-text"]}>
+                  <a href="https://www.inspace.info">Inspace </a>is a React
+                  application where users can view SpaceX launch information,
+                  using the SpaceX v4 API and Graphql.
+                </p>
+              </a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -63,12 +63,13 @@ const Portfolio = ({ styles }) => {
               <a
                 href="https://www.reactroll.com"
                 style={{ backgroundImage: `url(${ReactRollImage})` }}
-              ></a>
-              <p className={portfolioStyles["overlay-text"]}>
-                <a href="https://www.reactroll.com">React Roll </a>is a simple
-                React image website filled with randoms images pulled from the
-                Unsplash API, but with the spin of infinite scrolling.
-              </p>
+              >
+                <p className={portfolioStyles["overlay-text"]}>
+                  <a href="https://www.reactroll.com">React Roll </a>is a simple
+                  React image website filled with randoms images pulled from the
+                  Unsplash API, but with the spin of infinite scrolling.
+                </p>
+              </a>
             </div>
           </SwiperSlide>
         </Swiper>

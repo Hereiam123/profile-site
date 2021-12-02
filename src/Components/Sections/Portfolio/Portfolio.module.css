@@ -7,9 +7,8 @@
 }
 
 .portfolio-item-container:hover {
-  height: 220px;
-  width: 420px;
-  transition: height .2s ease-out, width .2s ease-out;
+  scale: 1.05;
+  transition: scale .5s ease-out;
 }
 
 .portfolio-item-container>a {
@@ -37,6 +36,9 @@
 @media (max-width: 768px) {
   .portfolio-item-container {
     height: 250px;
+  }
+  .overlay-text {
+    bottom: 15px;
   }
 }
 
