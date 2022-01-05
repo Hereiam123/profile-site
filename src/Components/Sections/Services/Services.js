@@ -29,18 +29,6 @@ const Services = ({ styles }) => {
           <SwiperSlide>
             <div className={servicesStyles["service-item"]}>
               <span className={servicesStyles.icon}>
-                <i className="material-icons deep-purple darken-3">timeline</i>
-              </span>
-              <h6>Seo Optimization</h6>
-              <span
-                className={`${servicesStyles.sep} deep-purple darken-3`}
-              ></span>
-              <p></p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className={servicesStyles["service-item"]}>
-              <span className={servicesStyles.icon}>
                 <i className="material-icons pink darken-3">videogame_asset</i>
               </span>
               <h6>Application Design and Programming</h6>
@@ -51,8 +39,20 @@ const Services = ({ styles }) => {
           <SwiperSlide>
             <div className={servicesStyles["service-item"]}>
               <span className={servicesStyles.icon}>
+                <i className="material-icons deep-purple darken-3">timeline</i>
+              </span>
+              <h6>Analytics and Tag Management</h6>
+              <span
+                className={`${servicesStyles.sep} deep-purple darken-3`}
+              ></span>
+              <p></p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={servicesStyles["service-item"]}>
+              <span className={servicesStyles.icon}>
                 <i className="material-icons deep-orange darken-3">
-                  music_note
+                  code
                 </i>
               </span>
               <h6>API Implementation</h6>
