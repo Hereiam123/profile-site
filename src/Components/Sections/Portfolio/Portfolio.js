@@ -50,9 +50,9 @@ const Portfolio = ({ styles }) => {
                 style={{ backgroundImage: `url(${InVueImage})` }}
               >
                 <p className={portfolioStyles["overlay-text"]}>
-                  <a href="https://www.vueit.org">InVue </a>is an Instagram
-                  style posting and sharing site, for users to interact
-                  socially. Built using Vue and Firebase
+                  <a href="https://www.vueit.org">InVue </a>is an
+                  Instagram-style posting and sharing site, for users to
+                  interact socially. Built using Vue and Firebase
                 </p>
               </a>
             </div>
@@ -66,7 +66,7 @@ const Portfolio = ({ styles }) => {
                 <p className={portfolioStyles["overlay-text"]}>
                   <a href="https://www.inspace.info">Inspace </a>is a React
                   application where users can view SpaceX launch information,
-                  using the SpaceX v4 API and Graphql.
+                  using the SpaceX v4 API and GraphQL.
                 </p>
               </a>
             </div>
