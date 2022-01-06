@@ -6,13 +6,12 @@ import portfolioStyles from "./Portfolio.module.css";
 import InspaceImage from "../../../assets/images/Portfolio/portfolio_inspace.png";
 import ReactRollImage from "../../../assets/images/Portfolio/react_roll.png";
 import TheOperationImage from "../../../assets/images/Portfolio/the_operation.png";
+import InVueImage from "../../../assets/images/Portfolio/invue.png";
 
 const Portfolio = ({ styles }) => {
   return (
     <section id="portfolio" className={styles.section}>
-      <span
-        className={`${styles.icon} btn-floating btn-large blue darken-3`}
-      >
+      <span className={`${styles.icon} btn-floating btn-large blue darken-3`}>
         <i className="material-icons">center_focus_strong</i>
       </span>
       <h2 className="blue-text text-darken-3">Portfolio</h2>
@@ -40,6 +39,20 @@ const Portfolio = ({ styles }) => {
                   site focused on linking together developers, and anyone
                   involved in the programming space. Built using React, Redux,
                   Node and MongoDB
+                </p>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={portfolioStyles["portfolio-item-container"]}>
+              <a
+                href="https://www.vueit.org"
+                style={{ backgroundImage: `url(${InVueImage})` }}
+              >
+                <p className={portfolioStyles["overlay-text"]}>
+                  <a href="https://www.vueit.org">InVue </a>is an Instagram
+                  style posting and sharing site, for users to interact
+                  socially. Built using Vue and Firebase
                 </p>
               </a>
             </div>
