@@ -26,7 +26,7 @@ const initialState = [
   {
     img: { alt: "Roller-coaster Icon", src: rollerCoasterImage },
     title: "Universal Orlando",
-    jobTitle: "Senior Web Analyst and Implementation Engineer",
+    jobTitle: "Senior Web Analyst and Front End Implementation Engineer",
     workDate: "2019 - Present",
   },
 ];
