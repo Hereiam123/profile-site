@@ -7,6 +7,7 @@ import InspaceImage from "../../../assets/images/Portfolio/portfolio_inspace.png
 import ReactRollImage from "../../../assets/images/Portfolio/react_roll.png";
 import TheOperationImage from "../../../assets/images/Portfolio/the_operation.png";
 import InVueImage from "../../../assets/images/Portfolio/invue.png";
+import ReactTracks from "../../../assets/images/Portfolio/react-tracks.png";
 
 const Portfolio = ({ styles }) => {
   return (
@@ -81,6 +82,23 @@ const Portfolio = ({ styles }) => {
                   <a href="https://www.reactroll.com">React Roll </a>is a simple
                   React image website filled with randoms images pulled from the
                   Unsplash API, but with the spin of infinite scrolling.
+                </p>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={portfolioStyles["portfolio-item-container"]}>
+              <a
+                href="https://www.reactsongs.com"
+                style={{ backgroundImage: `url(${ReactTracks})` }}
+              >
+                <p className={portfolioStyles["overlay-text"]}>
+                  <a href="https://www.reactsongs.com">
+                    React Tracks {`(`}Work In Progress{`)`}{" "}
+                  </a>
+                  is a music sharing site. The application leverages Django,
+                  Docker, GraphQL, Netlify, and React Apollo Client. This is a
+                  work in progress.
                 </p>
               </a>
             </div>
