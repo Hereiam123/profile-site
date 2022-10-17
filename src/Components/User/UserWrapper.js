@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./UserWrapper.module.css";
 import profileImage from "../../assets/images/Profile_Image.jpg"
+import resumeFile from "../../assets/files/Brian De Maio Web Resume Default - Updated.docx";
 
 const UserWrapper = () => {
   return (
@@ -22,6 +23,14 @@ const UserWrapper = () => {
             USA. Clean responsive design is a great passion of mine, but my
             skills are not just limited to Front End development, but also
             Backend and App development.
+          </li>
+          <li className={styles['collection-item']}>
+            <a
+              href={resumeFile}
+              className={`btn waves-effect waves-light light-bg ${styles['a']}`}
+            >
+              <span>RESUME</span><i className="material-icons">format_list_bulleted</i>
+            </a>
           </li>
           <li className={styles['collection-item']}>
             <a
