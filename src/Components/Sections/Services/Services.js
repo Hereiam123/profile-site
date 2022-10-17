@@ -1,8 +1,9 @@
 import React from "react";
 import { Navigation } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import 'swiper/css/navigation';
 import servicesStyles from "./Services.module.css";
-import "swiper/swiper-bundle.min.css";
 
 const Services = ({ styles }) => {
   return (

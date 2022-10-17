@@ -1,7 +1,8 @@
 import React from "react";
 import { Navigation } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
-import "swiper/swiper-bundle.min.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
 import portfolioStyles from "./Portfolio.module.css";
 import InspaceImage from "../../../assets/images/Portfolio/portfolio_inspace.png";
 import ReactRollImage from "../../../assets/images/Portfolio/react_roll.png";
