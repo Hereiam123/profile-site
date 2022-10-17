@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "./static/css/main.5a957811.chunk.css",
-    "main.js": "./static/js/main.aaca9d56.chunk.js",
-    "main.js.map": "./static/js/main.aaca9d56.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.d8895fe6.js",
-    "runtime-main.js.map": "./static/js/runtime-main.d8895fe6.js.map",
-    "static/css/2.ecbc8ff6.chunk.css": "./static/css/2.ecbc8ff6.chunk.css",
-    "static/js/2.fd906024.chunk.js": "./static/js/2.fd906024.chunk.js",
-    "static/js/2.fd906024.chunk.js.map": "./static/js/2.fd906024.chunk.js.map",
+    "main.js": "./static/js/main.da9a826a.chunk.js",
+    "main.js.map": "./static/js/main.da9a826a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.13afb51e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.13afb51e.js.map",
+    "static/css/2.a0c32d1b.chunk.css": "./static/css/2.a0c32d1b.chunk.css",
+    "static/js/2.506c640b.chunk.js": "./static/js/2.506c640b.chunk.js",
+    "static/js/2.506c640b.chunk.js.map": "./static/js/2.506c640b.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/2.ecbc8ff6.chunk.css.map": "./static/css/2.ecbc8ff6.chunk.css.map",
+    "static/css/2.a0c32d1b.chunk.css.map": "./static/css/2.a0c32d1b.chunk.css.map",
     "static/css/main.5a957811.chunk.css.map": "./static/css/main.5a957811.chunk.css.map",
-    "static/js/2.fd906024.chunk.js.LICENSE.txt": "./static/js/2.fd906024.chunk.js.LICENSE.txt",
+    "static/js/2.506c640b.chunk.js.LICENSE.txt": "./static/js/2.506c640b.chunk.js.LICENSE.txt",
+    "static/media/Brian De Maio Web Resume Default - Updated.286cd33a.docx": "./static/media/Brian De Maio Web Resume Default - Updated.286cd33a.docx",
     "static/media/Office_icon.81ecf97a.png": "./static/media/Office_icon.81ecf97a.png",
     "static/media/Profile_Image.ffda3f02.jpg": "./static/media/Profile_Image.ffda3f02.jpg",
     "static/media/adobe_illustrator.c1d0e881.png": "./static/media/adobe_illustrator.c1d0e881.png",
@@ -32,10 +33,10 @@
     "static/media/the_operation.cd80437f.png": "./static/media/the_operation.cd80437f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8895fe6.js",
-    "static/css/2.ecbc8ff6.chunk.css",
-    "static/js/2.fd906024.chunk.js",
+    "static/js/runtime-main.13afb51e.js",
+    "static/css/2.a0c32d1b.chunk.css",
+    "static/js/2.506c640b.chunk.js",
     "static/css/main.5a957811.chunk.css",
-    "static/js/main.aaca9d56.chunk.js"
+    "static/js/main.da9a826a.chunk.js"
   ]
 }
