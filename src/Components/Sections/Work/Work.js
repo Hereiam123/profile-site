@@ -3,19 +3,20 @@ import gasStation from "../../../assets/images/Works/gas-station.png";
 import freeLance from "../../../assets/images/Works/freelance.png";
 import hotelImage from "../../../assets/images/Works/hotel.png";
 import rollerCoasterImage from "../../../assets/images/Works/roller-coaster.png";
+import fishBowl from "../../../assets/images/Works/fish-bowl.png";
 
 const initialState = [
   {
-    img: { alt: "Gas Pump Icon", src: gasStation },
-    title: "Racetrac",
-    jobTitle: "Shift Manager",
-    workDate: "2014 - 2017",
+    img: { alt: "Fish Icon", src: fishBowl },
+    title: "Razorfish",
+    jobTitle: "Analytics Implementation Manager",
+    workDate: "2022 - Present",
   },
   {
-    img: { alt: "Freelance Work Icon", src: freeLance },
-    title: "Freelance Work",
-    jobTitle: "Freelancer",
-    workDate: "2016 - 2017",
+    img: { alt: "Roller-coaster Icon", src: rollerCoasterImage },
+    title: "Universal Orlando",
+    jobTitle: "Senior Web Analyst and Front End Implementation Engineer",
+    workDate: "2019 - 2022",
   },
   {
     img: { alt: "Hotel Icon", src: hotelImage },
@@ -24,10 +25,16 @@ const initialState = [
     workDate: "2017 - 2019",
   },
   {
-    img: { alt: "Roller-coaster Icon", src: rollerCoasterImage },
-    title: "Universal Orlando",
-    jobTitle: "Senior Web Analyst and Front End Implementation Engineer",
-    workDate: "2019 - Present",
+    img: { alt: "Freelance Work Icon", src: freeLance },
+    title: "Freelance Work",
+    jobTitle: "Freelancer",
+    workDate: "2016 - 2017",
+  },
+  {
+    img: { alt: "Gas Pump Icon", src: gasStation },
+    title: "Racetrac",
+    jobTitle: "Shift Manager",
+    workDate: "2014 - 2017",
   },
 ];
 
